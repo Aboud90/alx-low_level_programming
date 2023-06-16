@@ -1,3 +1,8 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Aboud90
+ */
+
 #include <stdio.h>
 
 /**
@@ -7,10 +12,10 @@
  */
 int main(void)
 {
-	char letter;
+	char le;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (le = 'a'; le <= 'z'; le++)
+		putchar(le);
 
 	putchar('\n');
 
