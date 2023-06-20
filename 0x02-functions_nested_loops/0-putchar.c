@@ -1,24 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * main - return _putchar
- * following by new line
- * Return :return  always 0 
- */
-
+*main - function prints text as output
+*
+*Return:return 0
+*/
 int main(void)
 {
-    char tmp[9] = "_putchar";
-    
-    int i;
-    
-    for (i = 0; i < 8; i++)
-    {
-        _putchar(tmp[i]);
-    }
-    
-    _putchar('\n');
-   
-    return 0;
+	char sc[10] = "_putchar";
+
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(sc[i]);
+	}
+	_putchar(10);
+	return (0);
 }
