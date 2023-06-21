@@ -1,11 +1,8 @@
 #include "main.h"
 /**
- * print_sign - check and return the sign of a givven number
- * @n: is a number test
- *
- * Return : 1 if the number is greater than 0
- * 0 if the number is 0
- * -1 if th number is less than 0
+ * print_sign - Determines whether an integer is positive, negative or zero.
+ * @n: the number to be checked.
+ * Return: 1 if positive, 0 if zero, -1 if negative, / if not a digit.
  */
 int print_sign(int n)
 {
