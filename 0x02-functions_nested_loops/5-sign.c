@@ -3,7 +3,9 @@
  * print_sign - check and return the sign of a givven number
  * @n: is a number test
  *
- * Return : 1 if the number is greater than 0  0 if the number is 0  an -1 if th number is less than 0
+ * Return : 1 if the number is greater than 0
+ * 0 if the number is 0
+ * -1 if th number is less than 0
  */
 int print_sign(int n)
 {
@@ -35,5 +37,3 @@ int print_sign(int n)
                 return ('/');
 	}
 }
-
-
