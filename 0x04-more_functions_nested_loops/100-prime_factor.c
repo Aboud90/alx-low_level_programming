@@ -10,9 +10,8 @@ int main(void)
 	long num = 612852475143;
 	long factor = 2;
 	long largest_factor = 0;
-	
+
 	while (num > 1)
-	
 	{
 		if (num % factor == 0)
 		{
@@ -28,7 +27,7 @@ int main(void)
 		}
 	}
 
-	printf("%ld\n", largest_factor);
+	printf("%lu\n", largest_factor);
 
 	return (0);
 }
