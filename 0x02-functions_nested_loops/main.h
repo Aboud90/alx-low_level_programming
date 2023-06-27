@@ -1,6 +1,6 @@
 /**
 *File:main.h
-*Author:Pericles Adjovi
+*Author:Aboud90
 *Desc:header file containing functions declaration
 */
 
