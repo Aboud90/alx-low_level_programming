@@ -1,8 +1,8 @@
 #include "main.h"
-/**
+/*
  * _puts - a function that prints a string
  * @str: test
- * Return: string
+ * seturn: string
  */
 void _puts(char *str)
 {
@@ -13,4 +13,4 @@ void _puts(char *str)
 		_putchar(str[i]);
 	}
 	_putchar('\n');
-
+}
