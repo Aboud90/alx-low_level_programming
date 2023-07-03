@@ -1,24 +1,25 @@
 #include "main.h"
 /**
- * _strspn - Locates a character in a string.
+ * _strchr - Locates a character in a string.
  * @s: source string
- * @a: looking string
+ * @c: tested char
  *
  * Return: new string.
  */
-unsigned int _strspn(char *s, char *a)
+char *_strchr(char *s, char c)
 {
-	unsigned int i, j;
-
-	for (j = 0; *(s + j); j++)
+	while (*s != '\0')
 	{
-		for (i = 0; *(a + i); i++)
+		if (*s == c)
 		{
-			if (*(s + j) == *(a + i))
-				break;
+			return (s);
+
 		}
-	if (*(a + i) == '\0')
-		break;
+		else
+			s++;
 	}
-	return (j);
+	if (*s == c)
+		return (s);
+	else
+		return (0);
 }
