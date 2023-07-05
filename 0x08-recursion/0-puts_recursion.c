@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  *_puts_recursion -  prints a string, followed by a new line
  *@s: string to test
  *Return: 1 if right -1 if fault
